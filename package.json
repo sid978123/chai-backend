@@ -1,12 +1,18 @@
 {
-  "name": "b-6",
+  "name": "chai aurbackend",
   "version": "1.0.0",
-  "description": "",
+  "description": "a backend at chai aur code channer at youtube",
   "license": "ISC",
-  "author": "",
-  "type": "commonjs",
+  "author": "Hitesh",
+  "type": "module",
   "main": "index.js",
   "scripts": {
+    "dev": "nodemon src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
-  }
+  },
+  "keywords": [
+    "javascript",
+    "backend",
+    "chai"
+  ]
 }
